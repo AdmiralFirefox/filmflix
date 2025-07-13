@@ -51,13 +51,13 @@ This project is created to expand my knowledge in React and Next JS, and how to 
 
 
 ### Built With...
-* [Next.js](https://nextjs.org/)
-* [Typescript](https://www.typescriptlang.org/)
-* [Firebase](https://firebase.google.com/)
-* [React Hook Form](https://react-hook-form.com/)
-* [Framer Motion](https://www.framer.com/motion/)
-* [MUI](https://mui.com/)
-* [SASS](https://sass-lang.com/)
+* Next.js
+* Typescript
+* Firebase
+* React Hook Form
+* Framer Motion
+* MUI
+* SASS
 * [TMDb API](https://www.themoviedb.org/)
 
 ### Features
@@ -132,7 +132,7 @@ npm run dev
 
 ### Creating an Account
 
-<img src="public/documentation/CreateAccountDemo.gif" alt="" width="100%" height="100%" />
+<img src="public/documentation/CreateAccountDemo.gif" alt="" width="100%" />
 
 1. Go to Sign In page.
     * From the home page, click the "Sign In" button or the "Get Started" button.
@@ -145,7 +145,7 @@ npm run dev
 
 ### Logging In
 
-<img src="public/documentation/SignInDemo.gif" alt="" width="100%" height="100%" />
+<img src="public/documentation/SignInDemo.gif" alt="" width="100%" />
 
 1. Go to Sign In page.
     * From the home page, click the "Sign In" button or the "Get Started" button.
@@ -158,7 +158,7 @@ npm run dev
 
 ### Adding User Profile
 
-<img src="public/documentation/AddProfileDemo.gif" alt="" width="100%" height="100%" />
+<img src="public/documentation/AddProfileDemo.gif" alt="" width="100%" />
 
 
 1. Log in to your account.
@@ -171,13 +171,13 @@ npm run dev
 
 **Edit Profile Avatar**
 
-<img src="public/documentation/EditProfileAvatarDemo.gif" alt="" width="100%" height="100%" />
+<img src="public/documentation/EditProfileAvatarDemo.gif" alt="" width="100%" />
 
 <br />
 
 **Edit Profile Name**
 
-<img src="public/documentation/EditProfileNameDemo.gif" alt="" width="100%" height="100%" />
+<img src="public/documentation/EditProfileNameDemo.gif" alt="" width="100%" />
 
 1. Log in to your account.
 2. Click the "Manage Profiles" button below.
@@ -193,7 +193,7 @@ npm run dev
 
 ### Deleting User Profile
 
-<img src="public/documentation/DeletingProfileDemo.gif" alt="" width="100%" height="100%" />
+<img src="public/documentation/DeletingProfileDemo.gif" alt="" width="100%" />
 
 1. Log in to your account.
 2. Click the "Manage Profiles" button below.
@@ -201,7 +201,7 @@ npm run dev
 
 ### Searching for a Movie or a TV Show
 
-<img src="public/documentation/SearchMovieDemo.gif" alt="" width="100%" height="100%" />
+<img src="public/documentation/SearchMovieDemo.gif" alt="" width="100%" />
 
 1. Log in to your account and select a profile.
 2. From the upper right of your screen beside your profile avatar, click the "Search" button.
@@ -209,7 +209,7 @@ npm run dev
 
 ### Signing Out
 
-<img src="public/documentation/SignOutDemo.gif" alt="" width="100%" height="100%" />
+<img src="public/documentation/SignOutDemo.gif" alt="" width="100%" />
 
 1. Click your Profile Avatar at the upper right of your screen beside the "Search" button.
 2. Click the "Sign Out" button.
