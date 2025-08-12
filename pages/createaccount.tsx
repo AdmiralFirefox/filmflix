@@ -91,7 +91,7 @@ const CreateAccount: FC = () => {
           </div>
           <div className={accountStyles["account-section-recaptcha"]}>
             <p>
-              Note: This is just a demo application to demonstrate my
+              Note: This is just a demo application to showcase my
               development skills. DO NOT ENTER any sensitive information.
             </p>
           </div>

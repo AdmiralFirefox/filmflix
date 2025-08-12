@@ -128,8 +128,8 @@ const SignIn: FC = () => {
 
           <div className={profileStyles["profile-styles-recaptcha"]}>
             <p>
-              Note: This is just a demo application to demonstrate my
-              development skills. DO NOT ENTER any sensitive information.
+              Note: This is just a demo application to showcase my development
+              skills. DO NOT ENTER any sensitive information.
             </p>
           </div>
         </div>

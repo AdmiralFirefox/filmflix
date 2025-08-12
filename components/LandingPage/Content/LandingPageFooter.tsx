@@ -40,7 +40,7 @@ const LandingPageFooter: FC = () => {
 
       <div className={styles["important-note"]}>
         <p>
-          Note: This is just a demo application to demonstrate my development
+          Note: This is just a demo application to showcase my development
           skills. Visit the GitHub repo{" "}
           <Link
             href="https://github.com/admiralfirefox/filmflix"
