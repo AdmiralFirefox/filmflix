@@ -36,9 +36,6 @@ const LandingPageFooter: FC = () => {
             <Link href="/">Legal Notices</Link>
           </div>
         </div>
-        <div className={styles["landing-page-footer-rights"]}>
-          <p>Filmflix. All rights reserved.</p>
-        </div>
       </div>
 
       <div className={styles["important-note"]}>
