@@ -9,7 +9,7 @@ interface MetaProps {
 
 const Meta: FC<MetaProps> = ({
   title = "Filmflix",
-  keywords = "Filmflix, Movie Database",
+  keywords = "Filmflix, Netflix Clone, Movie Database",
   description = "Filmflix, a database of latest movies and tv shows.",
 }) => {
   return (
