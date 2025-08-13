@@ -14,7 +14,7 @@ const PageContentThree: FC = () => {
           </h1>
           <p className={styles["page-content-three-description"]}>
             Let children explore adventures with their favorite characters in a
-            safe and personalized space
+            safe and personalized space.
           </p>
         </div>
         <div className={styles["page-content-three-image"]}>
