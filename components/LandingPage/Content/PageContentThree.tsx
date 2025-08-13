@@ -10,11 +10,11 @@ const PageContentThree: FC = () => {
       <div className={styles["page-content-three-wrapper"]}>
         <div className={styles["page-content-three-title"]}>
           <h1 className={styles["page-content-three-info"]}>
-            Create profiles for kids.
+            Create Kid-friendly profiles.
           </h1>
           <p className={styles["page-content-three-description"]}>
-            Send kids on adventures with their favorite characters in a space
-            made just for them—free with your membership.
+            Let children explore adventures with their favorite characters in a
+            safe and personalized space
           </p>
         </div>
         <div className={styles["page-content-three-image"]}>

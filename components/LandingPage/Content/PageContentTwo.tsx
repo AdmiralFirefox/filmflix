@@ -8,10 +8,11 @@ const PageContentTwo: FC = () => {
     <>
       <div className={styles["page-content-two-wrapper"]}>
         <div className={styles["page-content-two-title"]}>
-          <h1 className={styles["page-content-two-info"]}>Watch everywhere.</h1>
+          <h1 className={styles["page-content-two-info"]}>
+            Watch anytime, anywhere.
+          </h1>
           <p className={styles["page-content-two-description"]}>
-            Stream unlimited movies and TV shows on your phone, tablet, laptop,
-            and TV.
+            Enjoy endless movies and shows on your phone, tablet, laptop, or TV.
           </p>
         </div>
         <div className={styles["page-content-two-image"]}>

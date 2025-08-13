@@ -8,9 +8,11 @@ const PageContentOne: FC = () => {
     <>
       <div className={styles["page-content-one-wrapper"]}>
         <div className={styles["page-content-one-titles"]}>
-          <h1 className={styles["page-content-one-info"]}>Enjoy on your TV.</h1>
+          <h1 className={styles["page-content-one-info"]}>
+            Enjoy on the big screen.
+          </h1>
           <p className={styles["page-content-one-description"]}>
-            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            Watch on Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
             players, and more.
           </p>
         </div>
