@@ -2,7 +2,6 @@ import { FC, useState, useEffect } from "react";
 import { useLockedBody } from "../../hooks/useLockedBody";
 import { useTimeout } from "../../hooks/useTimeout";
 import { motion, AnimatePresence } from "framer-motion";
-const NetflixSound = require("../../assets/sounds/NetflixSound.mp3");
 
 const LogoAnimation: FC = () => {
   const [locked, setLocked] = useState(false);
@@ -44,10 +43,6 @@ const LogoAnimation: FC = () => {
           }}
         >
           <div id="container">
-            <audio autoPlay style={{ position: "absolute", display: "none" }}>
-              <source src={NetflixSound} type="audio/mp3" />
-            </audio>
-
             <div className="filmflix-intro" id="F">
               <div className="helper-1">
                 <div className="effect-brush">
