@@ -1,0 +1,24 @@
+@use "../ThemeProvider/variables" as theme-variable;
+
+.important-note {
+  background: theme-variable.$modal-background-color;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.7em 1em;
+
+  p {
+    color: theme-variable.$white-font-color;
+    text-align: center;
+    font-size: 1rem;
+
+    a {
+      color: theme-variable.$red-font-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

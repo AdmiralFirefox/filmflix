@@ -21,6 +21,7 @@ const AccordionSection = dynamic(
 const LandingPageFooter = dynamic(
   () => import("../components/LandingPage/Content/LandingPageFooter")
 );
+import Banner from "../components/LandingPage/Banner";
 import styles from "../styles/Pages/Home.module.scss";
 
 const Home: FC = () => {
@@ -32,6 +33,7 @@ const Home: FC = () => {
 
   return (
     <>
+      <Banner />
       <div className={styles["landing-page-content-wrapper"]}>
         <LandingPageNavbar />
         <HeroSection />

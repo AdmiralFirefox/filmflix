@@ -11,6 +11,7 @@ import AccountUserInput from "../components/Inputs/Accounts/AccountUserInput";
 const SignUpFooter = dynamic(
   () => import("../components/LandingPage/SignUpFooter")
 );
+import Banner from "../components/LandingPage/Banner";
 import accountStyles from "../styles/Pages/CreateAccount.module.scss";
 
 const CreateAccount: FC = () => {
@@ -57,6 +58,7 @@ const CreateAccount: FC = () => {
 
   return (
     <>
+      <Banner />
       <Link href="/" passHref legacyBehavior>
         <div className={accountStyles["account-section-web-logo"]}>
           <Image
@@ -91,8 +93,8 @@ const CreateAccount: FC = () => {
           </div>
           <div className={accountStyles["account-section-recaptcha"]}>
             <p>
-              Note: This is just a demo application to showcase my
-              development skills. DO NOT ENTER any sensitive information.
+              Note: This is just a demo application to showcase my development
+              skills. DO NOT ENTER any sensitive information.
             </p>
           </div>
         </div>

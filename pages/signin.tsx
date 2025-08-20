@@ -16,6 +16,7 @@ import ProfileUserInput from "../components/Inputs/Profiles/ProfileUserInput";
 const SignUpFooter = dynamic(
   () => import("../components/LandingPage/SignUpFooter")
 );
+import Banner from "../components/LandingPage/Banner";
 import profileStyles from "../styles/Pages/SignIn.module.scss";
 
 const SignIn: FC = () => {
@@ -90,6 +91,7 @@ const SignIn: FC = () => {
 
   return (
     <>
+      <Banner />
       <Link href="/" passHref legacyBehavior>
         <div className={profileStyles["profile-styles-web-logo"]}>
           <Image
